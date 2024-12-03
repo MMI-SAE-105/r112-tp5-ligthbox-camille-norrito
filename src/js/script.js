@@ -10,3 +10,6 @@ thumbnails.forEach((thumbnail) => {
     });
 });
 
+lightbox.addEventListener('click', (evt) => {
+    lightbox.close();
+});
